@@ -40,8 +40,8 @@ setButton(false);
 <div className="navbar-container">
   
  <Link to="/" className="navbar-logo" onClick={closeMobileMenu} >
-  TRvl <i class="bi bi-cash-stack"/>
-  {/* <i className="fab fa-typo3"/> */}
+  PALMAC HOTELS 
+  <i className="fab fa-typo3"/>
   
  </Link>
   <div className='menu-icon' onClick={handleClick}>
@@ -54,17 +54,17 @@ setButton(false);
       </Link>
       </li>
       <li className= 'nav-item'>
-    <Link to='/' className ='nav-links' onClick={closeMobileMenu}>
+    <Link to='/services' className ='nav-links' onClick={closeMobileMenu}>
       Services
       </Link>
       </li>
       <li className= 'nav-item'>
-    <Link to='/' className ='nav-links' onClick={closeMobileMenu}>
+    <Link to='/fAQs' className ='nav-links' onClick={closeMobileMenu}>
       FAQs
       </Link>
       </li>
       <li className= 'nav-item'>
-    <Link to='/' className ='nav-links-mobile' onClick={closeMobileMenu}>
+    <Link to='/help-sign-up' className ='nav-links-mobile' onClick={closeMobileMenu}>
       Help sign up
       </Link>
       </li>

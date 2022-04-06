@@ -8,7 +8,7 @@
   .home,
   .services,
   .fAQs,
-  .Help-sign-up {
+  .help-sign-up {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -16,8 +16,8 @@
     font-size: 3rem;
   }
   
-  .Services {
-     background-image: "/images/img-2.jpg";
+  .services {
+     background-image: url("/src/images/img-home.jpg") ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,8 +25,8 @@
     font-size: 100px;
   }
   
-  .FAQs {
-     background-image: '/images/img-1.jpg';
+  .fAQs {
+     background-image: url("/src/images/img-1.jpg");
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -34,8 +34,8 @@
     font-size: 100px;
   }
   
-  .Help-sign-up{
-     background-image: '/images/img-8.jpg';
+  .help-sign-up{
+     background-image: url("/src/images/img-8.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
