@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: linear-gradient(90deg, #EBEEEA, #B80000);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -24,9 +24,14 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size:100% ;
     display: flex;
     align-items: center;
+   
+  }
+  .opo{
+
+    height: 120;
   }
   
   .fa-typo3 {
@@ -74,10 +79,24 @@
   .menu-icon {
     display: none;
   }
+  .logo-image{
+
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+  }
   
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
+    }
+    .opo{
+      top: 0px;
+      height: 100px;
+      position:fixed;
+      margin-left: -100;
     }
   
     .nav-menu {
@@ -93,7 +112,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background:#194D33;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;

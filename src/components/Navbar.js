@@ -40,10 +40,14 @@ setButton(false);
 <div className="navbar-container">
   
  <Link to="/" className="navbar-logo" onClick={closeMobileMenu} >
-  PALMAC HOTELS 
-  <i className="fab fa-typo3"/>
-  
+  {/* PALMAC HOTELS  */}
+  {/* <i className="fab fa-typo3"/> */}
+  <img className='opo' height = '120' 
+              alt='Travel Image'
+              src= 'images-png/hotel_logo-01.png'
+            /> 
  </Link>
+ 
   <div className='menu-icon' onClick={handleClick}>
     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
   </div>
@@ -55,7 +59,7 @@ setButton(false);
       </li>
       <li className= 'nav-item'>
     <Link to='/services' className ='nav-links' onClick={closeMobileMenu}>
-      Services
+      Galleries
       </Link>
       </li>
       <li className= 'nav-item'>
